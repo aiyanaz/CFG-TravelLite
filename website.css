@@ -62,7 +62,7 @@ nav ul li{
     grid-gap: 30px;
     padding: 0px;
     margin-left: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .seaside {
@@ -98,7 +98,7 @@ nav ul li{
 .locations{
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .cornwall{
@@ -138,13 +138,17 @@ nav ul li{
     border: none;
     background-color: lightskyblue;
     color: white;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition-duration: 0.4s;
     cursor: pointer;
     padding: 20px 30px;
     text-decoration: none;
-    margin-left: 550px;
     margin-bottom: 50px;
+    position: relative;
+    margin-left: 44%;
+    margin-right: 44%;
 }
 
 .button:hover {
@@ -157,12 +161,33 @@ nav ul li{
     font-family: 'Raleway', sans-serif;
 }
 
+.packagesContainer{
+    display: grid;
+    text-align: justify;
+    margin-top: 0px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.liPackages{
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+}
+
 #h1Packages{
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 #h1Review{
+    margin-top: 50px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -170,20 +195,21 @@ nav ul li{
 #familyName{
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
 }
 
 #familyBeach{
-    margin-left: 440px;
+    margin-left: 35%;
 }
 
 #quoteMarkOne{
     margin-bottom: 0px;
-    margin-left: 280px;
+    margin-left: 25%;
 }
 
 #quoteMarkTwo{
     float: right;
-    margin-right: 280px;
+    margin-right: 25%;
     margin-top: 0px;
 }
 
@@ -191,13 +217,14 @@ nav ul li{
     margin-top: 0px;
     text-align: justify;
     font-family: 'Raleway', sans-serif;
-    margin-right: 350px;
-    margin-left: 350px;
+    margin-right: 30%;
+    margin-left: 30%;
     margin-bottom: 0px;
     padding: 0px;
 }
 
 .ourPartners{
+    margin-top: 50px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -217,12 +244,14 @@ nav ul li{
     margin-right: auto; */
     display: grid;
     height: 100px;
-    width: 900px;
-    align-content: space-evenly;
-    margin-left: 180px;
+    width: 75%;
+    align-items: center;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 30px;
     padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .socialMedia2{
@@ -241,9 +270,10 @@ nav ul li{
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
-    height: 50px;
-    width: 150px;
-    text-align: center;
+    width: 100%;
+    text-align: justify;
+    float: left;
+    margin-bottom: 50px;
 }
 
 footer{
