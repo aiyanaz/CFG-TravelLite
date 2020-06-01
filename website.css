@@ -1,0 +1,257 @@
+.socialMedia1{
+    float: right;
+    display: grid;
+    margin-bottom: 0px;
+    height: 10px;
+    width: 200px;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    margin-top: 20px;
+    margin-right: 1.5%;
+}
+.navBar{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    outline-width:200%;
+}
+
+.siteMapLinks{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-bottom: 40px;
+    width: 60%;
+    position: absolute;
+    top: 3.5%;
+    left: 21%;
+    /* transform: translate(-50%, -50%); */
+    margin-top: 0px;
+}
+
+#euImage{
+    float: left;
+    height: 50px;
+    width: 65px;
+}
+
+#logoName{
+    font-family: 'Caveat', cursive;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+nav ul li{
+    list-style: none;
+    color: black;
+    justify-content: space-around;
+    display: inline;
+}
+
+.imagesCaption{
+    margin-top: 50px;
+    display: grid;
+    height: 500px;
+    width: 90%;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    padding: 0px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.seaside {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Carter One', cursive;
+    font-size: 28px;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.belowCenter{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.locationImages{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.locations{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cornwall{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+#h2Cornwall{
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+#h2Cromer{
+    text-align: center;
+    margin-top: 0;
+}
+
+.cromer{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+#h2Skye{
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.skye{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    background-color: lightskyblue;
+    color: white;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 20px 30px;
+    text-decoration: none;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background-color: lightgoldenrodyellow;
+    color: white;
+  }
+
+.ourPackages{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#h1Packages{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#h1Review{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#familyName{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#familyBeach{
+    margin-left: 440px;
+}
+
+#quoteMarkOne{
+    margin-bottom: 0px;
+    margin-left: 280px;
+}
+
+#quoteMarkTwo{
+    float: right;
+    margin-right: 280px;
+    margin-top: 0px;
+}
+
+#personReview{
+    margin-top: 0px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.ourPartners{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.partnerLogos{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:  800px;
+    height: 800px; */
+    /* width: 150px;
+    height: 125px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    margin-left: auto;
+    margin-right: auto; */
+    display: grid;
+    height: 100px;
+    width: 900px;
+    align-content: space-evenly;
+    margin-left: 180px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 30px;
+    padding: 0px;
+}
+
+.socialMedia2{
+    float: right;
+    display: grid;
+    margin-bottom: 0px;
+    height: 10px;
+    width: 200px;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.ccTravelLite{
+    font-family: 'Caveat', cursive;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+
+footer{
+    text-align: justify;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline;
+    color: black;
+}

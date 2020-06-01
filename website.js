@@ -1,0 +1,1 @@
+ourPrompt.addEventListener('hover')
