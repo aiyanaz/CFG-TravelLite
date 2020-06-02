@@ -13,7 +13,19 @@
     font-family: 'Montserrat', sans-serif;
     justify-content: space-between;
     margin-bottom: 3%;
-    outline-width:200%;
+    outline-width:200%:
+}
+
+.logo{
+    margin-left: 0%;
+}
+
+.siteMapLinks li a:hover{
+    color: gold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: underline;
 }
 
 .siteMapLinks{
@@ -51,6 +63,8 @@ nav ul li{
     justify-content: space-around;
     display: inline;
 }
+
+a { color: inherit; } 
 
 .imagesCaption{
     margin-top: 50px;
@@ -167,19 +181,26 @@ nav ul li{
     margin-top: 0px;
     text-align: justify;
     font-family: 'Raleway', sans-serif;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 25%;
+    margin-left: 25%;
     margin-bottom: 0px;
     padding: 0px;
 }
 
-.liPackages{
+#centeredText{
     text-align: center;
 }
 
-ul li{
-    list-style: none;
+.liPackages{
+    text-align: justify;
+    list-style: circle;
+    margin-left: 3.5%;
+    margin-right: 3%;
 }
+
+/* ul li{
+    list-style: none;
+} */
 
 #h1Packages{
     margin-bottom: 30px;
