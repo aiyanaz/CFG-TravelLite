@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+
+
+.nehapic {
+    height: 1px;
+}
+
+.submitbutton{
+    background-color: grey;
+}
+
+
+.teamtitle{
+    text-align: center
+}
+
+.contacttitle{
+    text-align: center;
+}
+
+.contacttext{
+    text-align: center;
+}
+
+.contactussection {
+    padding-left: 250px;
+}
+
+/* top nav bar */
+.socialMedia1{
+    float: right;
+    display: grid;
+    margin-bottom: 0px;
+    height: 10px;
+    width: 200px;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    margin-top: 20px;
+    margin-right: 1.5%;
+}
+.navBar{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    outline-width:200%;
+}
+.siteMapLinks{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-bottom: 40px;
+    width: 60%;
+    position: absolute;
+    top: 3.5%;
+    left: 21%;
+    /* transform: translate(-50%, -50%); */
+    margin-top: 0px;
+}
+#euImage{
+    float: left;
+    height: 50px;
+    width: 65px;
+}
+#logo-name{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+nav ul li{
+    list-style: none;
+    color: black;
+    justify-content: space-around;
+    display: inline;
+}
